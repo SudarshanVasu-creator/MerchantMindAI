@@ -1,0 +1,30 @@
+[
+    {
+        "rating": 5,
+        "review": "Amazing pizza! The staff was extremely friendly and the service was quick."
+    },
+    {
+        "rating": 2,
+        "review": "The food arrived cold and delivery took over an hour."
+    },
+    {
+        "rating": 4,
+        "review": "Nice ambience and tasty coffee, but the prices were a little high."
+    },
+    {
+        "rating": 1,
+        "review": "Very poor customer service. The manager was rude."
+    },
+    {
+        "rating": 5,
+        "review": "Excellent experience. Fresh food and great atmosphere."
+    },
+    {
+        "rating": 3,
+        "review": "Food was okay but the waiting time was long."
+    },
+    {
+        "rating": 4,
+        "review": "Loved the desserts. Will definitely visit again."
+    }
+]

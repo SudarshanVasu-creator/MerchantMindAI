@@ -1,4 +1,7 @@
-from typing import Any, Dict, List, TypedDict
+from typing import Any, TypeAlias, TypedDict
+
+JSONDict: TypeAlias = dict[str, Any]
+JSONList: TypeAlias = list[JSONDict]
 
 
 class BusinessState(TypedDict):
@@ -10,16 +13,16 @@ class BusinessState(TypedDict):
     business_name: str
 
     # Input datasets
-    reviews: List[Dict[str, Any]]
-    sales: List[Dict[str, Any]]
-    inventory: List[Dict[str, Any]]
+    reviews: JSONList
+    sales: JSONList
+    inventory: JSONList
 
     # Agent outputs
-    review_analysis: Dict[str, Any]
-    sales_analysis: Dict[str, Any]
-    inventory_analysis: Dict[str, Any]
-    marketing_plan: Dict[str, Any]
-    strategy: Dict[str, Any]
+    review_analysis: JSONDict
+    sales_analysis: JSONDict
+    inventory_analysis: JSONDict
+    marketing_plan: JSONDict
+    strategy: JSONDict
 
     # Final output
     executive_report: str
