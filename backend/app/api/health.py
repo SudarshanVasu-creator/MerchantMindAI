@@ -18,7 +18,4 @@ def health_check():
         "status": "Running",
     }
 
-@router.get("/crash", tags=["Testing"])
-def crash():
-    return 1 / 0
 
