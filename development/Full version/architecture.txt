@@ -1,0 +1,38 @@
+User
+   │
+   ▼
+Business
+   │
+   ├── Reviews
+   ├── Inventory
+   ├── Sales
+   ├── Employees
+   ├── AI Reports
+   ├── Marketing Posts
+   ├── Campaigns
+   └── Competitors
+
+---------------------------------------------------------
+
+merchantmind-ai/
+
+backend/
+    app/
+        api/
+        core/
+        models/
+        schemas/
+        services/
+        agents/
+        workers/
+        utils/
+
+frontend/
+
+docs/
+
+docker/
+
+scripts/
+
+tests/

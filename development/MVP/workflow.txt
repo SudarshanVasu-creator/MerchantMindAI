@@ -1,0 +1,27 @@
+                 MerchantMind AI
+
+                    Dashboard
+
+        ┌─────────────────────────────────┐
+        │  "Analyze My Business" Button              │
+        └─────────────────────────────────┘
+
+                         │
+
+                 LangGraph Workflow
+
+                         │
+
+    ┌───────────────┼────────────────┐
+    │                    │                     │
+Review Agent      Sales Agent         Inventory Agent
+    │                    │                     │
+    └───────────────┼────────────────┘
+                         │
+                  Marketing Agent
+                         │
+                         ▼
+             Business Strategy Agent
+                         │
+                         ▼
+                 Executive AI Report

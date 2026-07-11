@@ -1,0 +1,56 @@
+1. Review Agent
+
+Input:
+Google reviews
+
+Output:
+Customer sentiment
+Top complaints
+Suggested replies
+
+
+2. Sales Agent
+
+Input:
+Sales CSV
+
+Output:
+Best sellers
+Worst sellers
+Revenue trend
+
+
+3. Inventory Agent
+
+Input:
+Inventory
+
+Output:
+Low stock alerts
+Overstock warnings
+Suggested reorder quantities
+
+
+4. Marketing Agent
+
+Uses outputs from the previous agents to generate:
+Instagram caption
+Promotional campaign
+Weekend offer
+Hashtags
+
+
+5. Business Strategy Agent
+
+Acts like the "CEO" AI.
+
+It reads everything and produces:
+Executive Weekly Report
+
+Example:
+Revenue increased 14%.
+Customer satisfaction dropped due to slow delivery.
+Chocolate Cake sales increased 38%.
+Reorder flour tomorrow.
+Promote cupcakes on Instagram this weekend.
+Reply to three negative reviews immediately.

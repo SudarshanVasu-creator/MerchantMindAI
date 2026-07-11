@@ -1,0 +1,26 @@
+Frontend
+
+React
+Vite
+TypeScript
+Tailwind CSS
+shadcn/ui
+Recharts
+
+
+Backend
+
+FastAPI
+Python 3.12+
+LangGraph
+OpenRouter API
+Pydantic
+
+
+Storage
+For the demo:
+
+data/
+    reviews.json
+    inventory.csv
+    sales.csv
