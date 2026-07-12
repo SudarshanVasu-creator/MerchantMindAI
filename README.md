@@ -1,5 +1,11 @@
 # ☀️ MerchantMind AI
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688)
+![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-purple)
+![Gemini](https://img.shields.io/badge/LLM-Google%20Gemini-orange)
+![Status](https://img.shields.io/badge/Status-Alpha-yellow)
+
 > An Agentic AI Business Manager for Small Businesses.
 
 MerchantMind AI is a multi-agent AI platform that helps small businesses make smarter business decisions through autonomous AI agents.
