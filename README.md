@@ -148,3 +148,4 @@ Developed by **Sudarshan Upadhyay**
 Project: **MerchantMind AI**
 
 Built as part of an IBM Agentic AI & Automation Workshop while being designed as the foundation for a future SaaS startup.
+

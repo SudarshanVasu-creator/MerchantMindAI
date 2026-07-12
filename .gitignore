@@ -84,3 +84,6 @@ frontend/dist/
 *.tmp
 *.bak
 *.swp
+
+# Development Documents
+development/

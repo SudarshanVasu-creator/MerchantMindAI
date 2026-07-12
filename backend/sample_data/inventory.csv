@@ -1,0 +1,81 @@
+item,category,current_stock,minimum_stock,maximum_stock,unit,supplier
+Coffee Beans - Arabica,Coffee,53,28,59,kg,Western Ghats Roasters
+Coffee Beans - Robusta,Coffee,70,49,67,kg,Western Ghats Roasters
+Ground Coffee - House Blend,Coffee,72,60,140,kg,Western Ghats Roasters
+Instant Coffee,Coffee,121,31,117,kg,Nestle Foodservice
+Coffee Filters,Coffee,76,74,116,packets,CaféSupply Co.
+Coffee Syrup - Vanilla,Coffee,64,11,75,bottles,Monin Distributors India
+Coffee Syrup - Caramel,Coffee,15,10,49,bottles,Monin Distributors India
+Coffee Syrup - Hazelnut,Coffee,106,41,104,bottles,Monin Distributors India
+Whole Milk,Dairy,75,60,144,litres,Amul Dairy Distributors
+Skimmed Milk,Dairy,29,22,108,litres,Amul Dairy Distributors
+Fresh Cream,Dairy,94,44,130,litres,Amul Dairy Distributors
+Butter,Dairy,13,11,51,kg,Amul Dairy Distributors
+Mozzarella Cheese,Dairy,52,43,72,kg,Dodla Cheese & Dairy
+Cheddar Cheese,Dairy,51,34,64,kg,Dodla Cheese & Dairy
+Yogurt,Dairy,54,15,100,kg,Amul Dairy Distributors
+Whipped Cream,Dairy,37,41,73,bottles,Dodla Cheese & Dairy
+Tomatoes,Vegetables,126,45,130,kg,Green Valley Produce
+Onions,Vegetables,26,20,79,kg,Green Valley Produce
+Bell Peppers,Vegetables,61,43,63,kg,Green Valley Produce
+Lettuce,Vegetables,42,11,49,kg,Green Valley Produce
+Mushrooms,Vegetables,105,51,131,kg,Green Valley Produce
+Spinach,Vegetables,86,57,109,kg,Green Valley Produce
+Garlic,Vegetables,91,45,115,kg,Green Valley Produce
+Potatoes,Vegetables,38,27,70,kg,Green Valley Produce
+Pizza Dough Base,Bakery,218,198,352,pieces,Artisan Bakehouse
+Burger Buns,Bakery,301,167,350,pieces,Artisan Bakehouse
+Sandwich Bread,Bakery,119,73,131,packets,Artisan Bakehouse
+Baguette,Bakery,289,134,311,pieces,Artisan Bakehouse
+Croissants,Bakery,29,38,128,pieces,Artisan Bakehouse
+Pancake Mix,Bakery,55,34,67,kg,Artisan Bakehouse
+Bread Rolls,Bakery,273,58,338,pieces,Artisan Bakehouse
+Garlic Bread Base,Bakery,70,30,99,pieces,Artisan Bakehouse
+Frozen Fries,Frozen,67,29,85,kg,IceCold Foods Ltd.
+Frozen Mixed Berries,Frozen,26,39,125,kg,IceCold Foods Ltd.
+Ice Cream Base - Vanilla,Frozen,39,37,57,litres,IceCold Foods Ltd.
+Frozen Chicken Patties,Frozen,33,25,97,kg,IceCold Foods Ltd.
+Frozen Veggie Patties,Frozen,7,11,62,kg,IceCold Foods Ltd.
+Frozen Pastry Sheets,Frozen,95,46,152,packets,IceCold Foods Ltd.
+Frozen Peas,Frozen,107,50,106,kg,IceCold Foods Ltd.
+Frozen Corn,Frozen,100,37,94,kg,IceCold Foods Ltd.
+Delivery Boxes - Pizza,Packaging,112,176,265,pieces,PackRight Supplies
+Delivery Bags,Packaging,22,35,176,pieces,PackRight Supplies
+Takeaway Cups,Packaging,187,93,189,pieces,PackRight Supplies
+Cup Lids,Packaging,183,83,316,pieces,PackRight Supplies
+Paper Napkins,Packaging,67,73,98,packets,PackRight Supplies
+Disposable Cutlery Sets,Packaging,49,67,133,packets,PackRight Supplies
+Paper Straws,Packaging,72,45,77,packets,PackRight Supplies
+Food Wrap Paper,Packaging,62,40,64,boxes,PackRight Supplies
+Dish Soap,Cleaning,75,32,86,bottles,SparkleClean Wholesale
+Surface Sanitizer,Cleaning,39,30,68,bottles,SparkleClean Wholesale
+Floor Cleaner,Cleaning,22,13,47,litres,SparkleClean Wholesale
+Glass Cleaner,Cleaning,20,20,58,bottles,SparkleClean Wholesale
+Hand Soap,Cleaning,53,37,69,bottles,SparkleClean Wholesale
+Trash Bags,Cleaning,50,46,61,packets,SparkleClean Wholesale
+Kitchen Towels,Cleaning,110,63,146,packets,SparkleClean Wholesale
+Disinfectant Spray,Cleaning,53,45,94,bottles,SparkleClean Wholesale
+Ketchup,Condiments,56,50,124,bottles,Fresh Fields Foods
+Mayonnaise,Condiments,60,35,94,bottles,Fresh Fields Foods
+Mustard Sauce,Condiments,37,31,90,bottles,Fresh Fields Foods
+Hot Sauce,Condiments,39,36,96,bottles,Fresh Fields Foods
+BBQ Sauce,Condiments,16,18,35,bottles,Fresh Fields Foods
+Pesto Sauce,Condiments,37,34,63,bottles,Fresh Fields Foods
+Salad Dressing,Condiments,30,27,42,bottles,Fresh Fields Foods
+Pizza Sauce,Condiments,27,8,92,kg,Fresh Fields Foods
+Pasta - Penne,Dry Goods,53,42,66,kg,Bella Italia Imports
+Pasta - Fettuccine,Dry Goods,49,47,62,kg,Bella Italia Imports
+All-Purpose Flour,Dry Goods,69,21,111,kg,Bella Italia Imports
+Sugar,Dry Goods,39,17,61,kg,Fresh Fields Foods
+Rice,Dry Goods,120,46,104,kg,Fresh Fields Foods
+Oats,Dry Goods,49,15,41,kg,Fresh Fields Foods
+Chocolate Chips,Dry Goods,29,37,110,kg,CocoaCraft Suppliers
+Cocoa Powder,Dry Goods,24,27,49,kg,CocoaCraft Suppliers
+Orange Juice Concentrate,Beverages,61,14,69,litres,Tropicana Foodservice
+Apple Juice Concentrate,Beverages,44,24,97,litres,Tropicana Foodservice
+Tea Leaves - Black,Beverages,44,41,55,kg,Nilgiri Tea Traders
+Tea Leaves - Green,Beverages,36,41,99,kg,Nilgiri Tea Traders
+Soda Syrup - Cola,Beverages,62,50,62,bottles,Sparkle Beverages Co.
+Soda Syrup - Lemon,Beverages,80,39,86,bottles,Sparkle Beverages Co.
+Bottled Water,Beverages,70,10,61,boxes,AquaPure Distributors
+Milkshake Mix - Chocolate,Beverages,99,41,99,kg,CocoaCraft Suppliers
