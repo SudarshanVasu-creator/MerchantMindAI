@@ -23,6 +23,7 @@ class BusinessState(TypedDict):
     inventory_analysis: JSONDict
     marketing_plan: JSONDict
     strategy: JSONDict
+    prompt: str
 
     # Final output
     executive_report: str
