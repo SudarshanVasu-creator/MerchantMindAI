@@ -1,30 +1,302 @@
 [
-    {
-        "rating": 5,
-        "review": "Amazing pizza! The staff was extremely friendly and the service was quick."
-    },
-    {
-        "rating": 2,
-        "review": "The food arrived cold and delivery took over an hour."
-    },
-    {
-        "rating": 4,
-        "review": "Nice ambience and tasty coffee, but the prices were a little high."
-    },
-    {
-        "rating": 1,
-        "review": "Very poor customer service. The manager was rude."
-    },
-    {
-        "rating": 5,
-        "review": "Excellent experience. Fresh food and great atmosphere."
-    },
-    {
-        "rating": 3,
-        "review": "Food was okay but the waiting time was long."
-    },
-    {
-        "rating": 4,
-        "review": "Loved the desserts. Will definitely visit again."
-    }
+  {
+    "rating": 4,
+    "review": "The Cappuccino is amazing here, and the coffee always tastes fresh, never bitter or stale."
+  },
+  {
+    "rating": 4,
+    "review": "The Classic Burger here is honestly one of the best I've had in the neighborhood. Will be back!"
+  },
+  {
+    "rating": 3,
+    "review": "The Latte was decent, nothing special. Service was okay, not particularly fast or slow."
+  },
+  {
+    "rating": 5,
+    "review": "The Pancakes was fresh and the presentation was lovely. Nice spot for brunch."
+  },
+  {
+    "rating": 2,
+    "review": "Long wait during lunch rush, and the Pepperoni Pizza came out with barely any toppings."
+  },
+  {
+    "rating": 1,
+    "review": "Delivery driver took ages and the Cappuccino I ordered had gone lukewarm in the packaging."
+  },
+  {
+    "rating": 5,
+    "review": "Cozy seating, great music, and the Cheesecake was delicious. Perfect weekend spot."
+  },
+  {
+    "rating": 1,
+    "review": "Delivery took way too long and the Margherita Pizza box was soggy on arrival."
+  },
+  {
+    "rating": 5,
+    "review": "Lovely evening spent here with Classic Burger and dessert. The place has such a nice ambience."
+  },
+  {
+    "rating": 5,
+    "review": "I'm a regular for their Cold Coffee. Consistent quality every single time."
+  },
+  {
+    "rating": 3,
+    "review": "It's a fine caf\u00e9 for the area - nothing that stood out as bad or great."
+  },
+  {
+    "rating": 1,
+    "review": "We waited so long for the Grilled Sandwich that the kids' Cheesecake melted before the mains even arrived."
+  },
+  {
+    "rating": 3,
+    "review": "The Pancakes were fine, standard breakfast fare. Wouldn't go out of my way for it."
+  },
+  {
+    "rating": 2,
+    "review": "Ordered a Veggie Burger and the patty was clearly not fully thawed, quite disappointing."
+  },
+  {
+    "rating": 1,
+    "review": "One of the staff members was quite rude when I asked about the delay on our order."
+  },
+  {
+    "rating": 4,
+    "review": "Excellent pizzas, and the Pepperoni Pizza we ordered alongside was just as good."
+  },
+  {
+    "rating": 2,
+    "review": "Got someone else's Alfredo Pasta order instead of my Grilled Sandwich. Had to send it back."
+  },
+  {
+    "rating": 5,
+    "review": "The Pepperoni Pizza was fresh and the presentation was lovely. Nice spot for brunch."
+  },
+  {
+    "rating": 4,
+    "review": "Ordered the Cheesecake and it did not disappoint - fresh, hot, and full of flavor."
+  },
+  {
+    "rating": 3,
+    "review": "The Cold Coffee was good, but seating was cramped when we visited on a Saturday."
+  },
+  {
+    "rating": 4,
+    "review": "I'm a regular for their Margherita Pizza. Consistent quality every single time."
+  },
+  {
+    "rating": 1,
+    "review": "The croissants were unavailable again this morning. Third time I've come in for breakfast and been let down."
+  },
+  {
+    "rating": 4,
+    "review": "Their Margherita Pizza is a must-try. Perfectly balanced flavors every time."
+  },
+  {
+    "rating": 1,
+    "review": "Our Pancakes came out wrong twice - had to send it back and wait another 20 minutes."
+  },
+  {
+    "rating": 5,
+    "review": "Came in for Margherita Pizza and ended up loving the whole vibe of the place. Great ambience."
+  },
+  {
+    "rating": 2,
+    "review": "Cold Coffee took forever to arrive even though the caf\u00e9 wasn't that busy."
+  },
+  {
+    "rating": 5,
+    "review": "Staff were so friendly and the Pepperoni Pizza was cooked to perfection."
+  },
+  {
+    "rating": 5,
+    "review": "The staff remembered my usual order of Latte - such a friendly touch."
+  },
+  {
+    "rating": 2,
+    "review": "Wrong order again - asked for Classic Burger, got Veggie Burger instead, and no one apologized."
+  },
+  {
+    "rating": 5,
+    "review": "The Cold Coffee is amazing here, and the coffee always tastes fresh, never bitter or stale."
+  },
+  {
+    "rating": 2,
+    "review": "Ordered delivery and it took over an hour to arrive. The Margherita Pizza was barely warm by the time it got here."
+  },
+  {
+    "rating": 3,
+    "review": "Margherita Pizza was fine but I've had better elsewhere. Ambience is nice though."
+  },
+  {
+    "rating": 5,
+    "review": "Lovely evening spent here with Grilled Sandwich and dessert. The place has such a nice ambience."
+  },
+  {
+    "rating": 4,
+    "review": "The Cappuccino arrived quickly and was still warm - great service today."
+  },
+  {
+    "rating": 3,
+    "review": "Fresh Juice was fine, though I expected it to be a bit less watered down."
+  },
+  {
+    "rating": 5,
+    "review": "Great value meal - Fresh Juice plus a coffee for a very reasonable price."
+  },
+  {
+    "rating": 5,
+    "review": "The Grilled Sandwich arrived quickly and was still warm - great service today."
+  },
+  {
+    "rating": 3,
+    "review": "Coffee was fresh but the Chocolate Brownie was a little too sweet for my taste."
+  },
+  {
+    "rating": 2,
+    "review": "Delivery was really slow tonight - almost 50 minutes for a Pepperoni Pizza that's a 10 minute drive away."
+  },
+  {
+    "rating": 2,
+    "review": "The Fresh Juice tasted off today, and the wait at the counter was longer than usual."
+  },
+  {
+    "rating": 4,
+    "review": "Lovely evening spent here with Grilled Sandwich and dessert. The place has such a nice ambience."
+  },
+  {
+    "rating": 5,
+    "review": "Cozy seating, great music, and the Pepperoni Pizza was delicious. Perfect weekend spot."
+  },
+  {
+    "rating": 5,
+    "review": "Staff were so friendly and the Pancakes was cooked to perfection."
+  },
+  {
+    "rating": 5,
+    "review": "I'm a regular for their Cheesecake. Consistent quality every single time."
+  },
+  {
+    "rating": 5,
+    "review": "Best Margherita Pizza in the area, hands down. Good value for the price too."
+  },
+  {
+    "rating": 4,
+    "review": "The Cheesecake is amazing here, and the coffee always tastes fresh, never bitter or stale."
+  },
+  {
+    "rating": 3,
+    "review": "Decent place to work from with a coffee, though it does get noisy during lunch hours."
+  },
+  {
+    "rating": 4,
+    "review": "The Cappuccino here is honestly one of the best I've had in the neighborhood. Will be back!"
+  },
+  {
+    "rating": 1,
+    "review": "Wanted the Cheesecake but was told they were out of it again. This is the second time this month."
+  },
+  {
+    "rating": 3,
+    "review": "Pepperoni Pizza was average, toppings felt a little sparse this time."
+  },
+  {
+    "rating": 3,
+    "review": "It's an okay spot for a quick bite. The Alfredo Pasta portion could be bigger for the price."
+  },
+  {
+    "rating": 4,
+    "review": "The staff remembered my usual order of Alfredo Pasta - such a friendly touch."
+  },
+  {
+    "rating": 5,
+    "review": "Best Chocolate Brownie in the area, hands down. Good value for the price too."
+  },
+  {
+    "rating": 3,
+    "review": "Service was a little slow during the evening rush, but the Espresso was solid."
+  },
+  {
+    "rating": 5,
+    "review": "Ordered the Latte and it did not disappoint - fresh, hot, and full of flavor."
+  },
+  {
+    "rating": 4,
+    "review": "Came in for Latte and ended up loving the whole vibe of the place. Great ambience."
+  },
+  {
+    "rating": 1,
+    "review": "Asked for a Chocolate Brownie and they said they'd run out of chocolate stock for the day. Disappointing."
+  },
+  {
+    "rating": 5,
+    "review": "Ordered the Alfredo Pasta and it did not disappoint - fresh, hot, and full of flavor."
+  },
+  {
+    "rating": 5,
+    "review": "Best Pancakes in the area, hands down. Good value for the price too."
+  },
+  {
+    "rating": 5,
+    "review": "Excellent pizzas, and the Chocolate Brownie we ordered alongside was just as good."
+  },
+  {
+    "rating": 5,
+    "review": "Came in for Cold Coffee and ended up loving the whole vibe of the place. Great ambience."
+  },
+  {
+    "rating": 4,
+    "review": "Their Latte is a must-try. Perfectly balanced flavors every time."
+  },
+  {
+    "rating": 1,
+    "review": "Waited nearly 40 minutes for our order to even reach the table during dinner. Way too long."
+  },
+  {
+    "rating": 3,
+    "review": "Nothing wrong with the Cappuccino, just felt a bit overpriced compared to nearby caf\u00e9s."
+  },
+  {
+    "rating": 4,
+    "review": "The Fresh Juice arrived quickly and was still warm - great service today."
+  },
+  {
+    "rating": 3,
+    "review": "Mixed feelings - great coffee but the Veggie Burger patty tasted a bit frozen still."
+  },
+  {
+    "rating": 5,
+    "review": "Staff were so friendly and the Classic Burger was cooked to perfection."
+  },
+  {
+    "rating": 3,
+    "review": "Average experience overall. The Classic Burger was good, but the Grilled Sandwich felt a bit dry."
+  },
+  {
+    "rating": 4,
+    "review": "The staff remembered my usual order of Fresh Juice - such a friendly touch."
+  },
+  {
+    "rating": 3,
+    "review": "The Cheesecake was good but they'd run out of the flavor I wanted, had to settle for plain."
+  },
+  {
+    "rating": 2,
+    "review": "The Classic Burger arrived cold, like it had been sitting around before delivery."
+  },
+  {
+    "rating": 2,
+    "review": "The Espresso was fine but the delivery packaging had leaked all over the bag."
+  },
+  {
+    "rating": 4,
+    "review": "The Cappuccino here is honestly one of the best I've had in the neighborhood. Will be back!"
+  },
+  {
+    "rating": 4,
+    "review": "Excellent pizzas, and the Espresso we ordered alongside was just as good."
+  },
+  {
+    "rating": 5,
+    "review": "Great value meal - Espresso plus a coffee for a very reasonable price."
+  }
 ]

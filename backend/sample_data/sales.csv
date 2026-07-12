@@ -1,0 +1,301 @@
+date,product,category,quantity,unit_price,revenue
+2026-06-01 07:20,Pancakes,Breakfast,1,175,175
+2026-06-01 12:10,Fresh Juice,Beverage,1,150,150
+2026-06-01 17:50,Margherita Pizza,Pizza,3,430,1290
+2026-06-01 17:50,Cheesecake,Dessert,1,220,220
+2026-06-01 18:00,Cheesecake,Dessert,1,210,210
+2026-06-01 19:30,Alfredo Pasta,Pasta,2,345,690
+2026-06-01 20:05,Veggie Burger,Burger,2,235,470
+2026-06-02 09:40,Pancakes,Breakfast,1,175,175
+2026-06-02 10:50,Pancakes,Breakfast,2,165,330
+2026-06-02 12:10,Espresso,Coffee,2,135,270
+2026-06-02 13:20,Cappuccino,Coffee,1,165,165
+2026-06-02 15:50,Classic Burger,Burger,2,280,560
+2026-06-02 18:25,Latte,Coffee,1,175,175
+2026-06-02 19:05,Cheesecake,Dessert,1,210,210
+2026-06-02 19:35,Fresh Juice,Beverage,2,150,300
+2026-06-02 20:45,Chocolate Brownie,Dessert,2,145,290
+2026-06-02 20:45,Fresh Juice,Beverage,1,150,150
+2026-06-03 12:15,Margherita Pizza,Pizza,1,430,430
+2026-06-03 12:30,Pepperoni Pizza,Pizza,2,505,1010
+2026-06-03 12:55,Grilled Sandwich,Sandwich,2,195,390
+2026-06-03 16:40,Fresh Juice,Beverage,1,155,155
+2026-06-03 16:45,Alfredo Pasta,Pasta,2,335,670
+2026-06-03 17:10,Cheesecake,Dessert,2,205,410
+2026-06-03 17:15,Latte,Coffee,2,175,350
+2026-06-04 11:05,Espresso,Coffee,1,145,145
+2026-06-04 12:00,Veggie Burger,Burger,2,250,500
+2026-06-04 12:30,Latte,Coffee,2,180,360
+2026-06-04 12:45,Cappuccino,Coffee,2,175,350
+2026-06-04 13:50,Alfredo Pasta,Pasta,1,345,345
+2026-06-04 14:35,Margherita Pizza,Pizza,3,420,1260
+2026-06-04 15:40,Veggie Burger,Burger,1,240,240
+2026-06-04 19:55,Chocolate Brownie,Dessert,2,140,280
+2026-06-05 09:00,Espresso,Coffee,2,140,280
+2026-06-05 10:55,Fresh Juice,Beverage,3,155,465
+2026-06-05 11:10,Fresh Juice,Beverage,3,145,435
+2026-06-05 11:45,Espresso,Coffee,1,140,140
+2026-06-05 12:40,Fresh Juice,Beverage,2,150,300
+2026-06-05 14:05,Classic Burger,Burger,2,275,550
+2026-06-05 17:45,Chocolate Brownie,Dessert,1,145,145
+2026-06-05 17:55,Cappuccino,Coffee,3,165,495
+2026-06-05 20:00,Grilled Sandwich,Sandwich,1,185,185
+2026-06-05 20:20,Alfredo Pasta,Pasta,1,330,330
+2026-06-06 08:30,Fresh Juice,Beverage,2,150,300
+2026-06-06 14:20,Pepperoni Pizza,Pizza,1,525,525
+2026-06-06 14:40,Classic Burger,Burger,2,270,540
+2026-06-06 15:45,Latte,Coffee,2,185,370
+2026-06-06 17:00,Cheesecake,Dessert,2,210,420
+2026-06-07 09:25,Espresso,Coffee,1,145,145
+2026-06-07 14:50,Classic Burger,Burger,1,280,280
+2026-06-07 15:35,Espresso,Coffee,2,145,290
+2026-06-07 16:30,Grilled Sandwich,Sandwich,1,185,185
+2026-06-07 16:55,Cheesecake,Dessert,1,205,205
+2026-06-07 18:50,Cheesecake,Dessert,1,205,205
+2026-06-08 07:25,Latte,Coffee,1,180,180
+2026-06-08 09:35,Pancakes,Breakfast,1,170,170
+2026-06-08 12:00,Latte,Coffee,3,180,540
+2026-06-08 12:10,Alfredo Pasta,Pasta,2,330,660
+2026-06-08 12:30,Grilled Sandwich,Sandwich,1,190,190
+2026-06-08 12:45,Veggie Burger,Burger,2,250,500
+2026-06-08 13:10,Espresso,Coffee,2,140,280
+2026-06-08 14:30,Cappuccino,Coffee,2,175,350
+2026-06-08 14:40,Latte,Coffee,1,175,175
+2026-06-08 16:50,Pepperoni Pizza,Pizza,3,535,1605
+2026-06-08 17:20,Fresh Juice,Beverage,3,155,465
+2026-06-08 19:10,Espresso,Coffee,2,135,270
+2026-06-08 19:55,Veggie Burger,Burger,2,245,490
+2026-06-08 20:20,Alfredo Pasta,Pasta,2,345,690
+2026-06-08 20:25,Veggie Burger,Burger,1,245,245
+2026-06-08 20:30,Cheesecake,Dessert,1,215,215
+2026-06-09 10:25,Cappuccino,Coffee,1,165,165
+2026-06-09 10:40,Latte,Coffee,1,185,185
+2026-06-09 12:45,Cold Coffee,Coffee,2,190,380
+2026-06-09 13:55,Margherita Pizza,Pizza,2,410,820
+2026-06-09 15:05,Cappuccino,Coffee,3,165,495
+2026-06-09 16:30,Chocolate Brownie,Dessert,1,140,140
+2026-06-09 17:40,Grilled Sandwich,Sandwich,1,190,190
+2026-06-09 18:40,Chocolate Brownie,Dessert,2,145,290
+2026-06-09 18:50,Classic Burger,Burger,1,280,280
+2026-06-09 19:35,Chocolate Brownie,Dessert,1,140,140
+2026-06-09 20:15,Pepperoni Pizza,Pizza,1,510,510
+2026-06-10 07:45,Pancakes,Breakfast,2,165,330
+2026-06-10 13:35,Veggie Burger,Burger,1,235,235
+2026-06-10 16:00,Grilled Sandwich,Sandwich,1,195,195
+2026-06-10 16:15,Cappuccino,Coffee,3,165,495
+2026-06-10 16:40,Fresh Juice,Beverage,3,155,465
+2026-06-10 16:50,Cheesecake,Dessert,1,215,215
+2026-06-10 17:30,Classic Burger,Burger,1,265,265
+2026-06-10 18:35,Classic Burger,Burger,1,265,265
+2026-06-10 19:05,Cheesecake,Dessert,2,215,430
+2026-06-10 20:00,Chocolate Brownie,Dessert,2,135,270
+2026-06-10 20:45,Chocolate Brownie,Dessert,2,145,290
+2026-06-11 09:10,Pancakes,Breakfast,1,165,165
+2026-06-11 10:55,Pancakes,Breakfast,2,170,340
+2026-06-11 18:55,Fresh Juice,Beverage,3,155,465
+2026-06-11 19:25,Pepperoni Pizza,Pizza,1,520,520
+2026-06-11 20:05,Margherita Pizza,Pizza,1,410,410
+2026-06-11 20:35,Grilled Sandwich,Sandwich,2,185,370
+2026-06-11 21:15,Chocolate Brownie,Dessert,2,135,270
+2026-06-12 07:25,Pancakes,Breakfast,1,170,170
+2026-06-12 09:35,Espresso,Coffee,2,140,280
+2026-06-12 09:50,Fresh Juice,Beverage,1,150,150
+2026-06-12 10:05,Pancakes,Breakfast,2,165,330
+2026-06-12 12:25,Cappuccino,Coffee,1,170,170
+2026-06-12 12:35,Fresh Juice,Beverage,2,145,290
+2026-06-12 14:30,Pepperoni Pizza,Pizza,1,530,530
+2026-06-12 14:30,Veggie Burger,Burger,1,245,245
+2026-06-12 16:45,Grilled Sandwich,Sandwich,1,195,195
+2026-06-12 16:55,Espresso,Coffee,1,145,145
+2026-06-12 17:20,Pepperoni Pizza,Pizza,3,530,1590
+2026-06-12 18:05,Grilled Sandwich,Sandwich,1,195,195
+2026-06-12 18:30,Margherita Pizza,Pizza,3,430,1290
+2026-06-12 18:55,Classic Burger,Burger,2,270,540
+2026-06-12 19:50,Fresh Juice,Beverage,1,145,145
+2026-06-13 10:10,Cappuccino,Coffee,3,170,510
+2026-06-13 11:15,Grilled Sandwich,Sandwich,2,195,390
+2026-06-13 12:55,Fresh Juice,Beverage,3,155,465
+2026-06-13 15:05,Margherita Pizza,Pizza,2,415,830
+2026-06-13 15:35,Margherita Pizza,Pizza,2,415,830
+2026-06-13 16:15,Grilled Sandwich,Sandwich,2,195,390
+2026-06-13 16:50,Pepperoni Pizza,Pizza,3,515,1545
+2026-06-13 19:05,Latte,Coffee,1,175,175
+2026-06-13 19:10,Cold Coffee,Coffee,1,190,190
+2026-06-13 19:20,Cheesecake,Dessert,2,205,410
+2026-06-13 19:35,Latte,Coffee,2,180,360
+2026-06-13 19:45,Classic Burger,Burger,1,265,265
+2026-06-13 20:45,Cold Coffee,Coffee,2,190,380
+2026-06-13 21:30,Margherita Pizza,Pizza,2,405,810
+2026-06-14 07:05,Cappuccino,Coffee,1,165,165
+2026-06-14 07:40,Pancakes,Breakfast,2,165,330
+2026-06-14 08:45,Pancakes,Breakfast,1,175,175
+2026-06-14 11:15,Latte,Coffee,3,185,555
+2026-06-14 14:00,Cappuccino,Coffee,3,175,525
+2026-06-14 14:10,Classic Burger,Burger,1,270,270
+2026-06-14 14:55,Margherita Pizza,Pizza,2,420,840
+2026-06-14 17:55,Grilled Sandwich,Sandwich,1,195,195
+2026-06-14 20:15,Pepperoni Pizza,Pizza,3,520,1560
+2026-06-15 15:00,Cappuccino,Coffee,3,175,525
+2026-06-15 15:00,Espresso,Coffee,1,135,135
+2026-06-15 16:45,Grilled Sandwich,Sandwich,2,190,380
+2026-06-15 17:05,Alfredo Pasta,Pasta,2,340,680
+2026-06-15 18:20,Cheesecake,Dessert,1,205,205
+2026-06-15 18:25,Chocolate Brownie,Dessert,2,140,280
+2026-06-15 19:45,Pepperoni Pizza,Pizza,3,525,1575
+2026-06-15 20:10,Classic Burger,Burger,1,270,270
+2026-06-16 07:40,Latte,Coffee,1,185,185
+2026-06-16 12:25,Grilled Sandwich,Sandwich,2,185,370
+2026-06-16 13:00,Latte,Coffee,1,180,180
+2026-06-16 13:05,Alfredo Pasta,Pasta,2,345,690
+2026-06-16 13:10,Grilled Sandwich,Sandwich,2,190,380
+2026-06-16 18:20,Fresh Juice,Beverage,2,150,300
+2026-06-16 18:30,Cold Coffee,Coffee,3,190,570
+2026-06-16 19:25,Chocolate Brownie,Dessert,2,140,280
+2026-06-16 20:00,Margherita Pizza,Pizza,2,410,820
+2026-06-17 09:05,Pancakes,Breakfast,1,165,165
+2026-06-17 10:35,Pancakes,Breakfast,1,170,170
+2026-06-17 13:50,Cold Coffee,Coffee,1,185,185
+2026-06-17 15:45,Fresh Juice,Beverage,3,155,465
+2026-06-17 16:30,Cold Coffee,Coffee,1,195,195
+2026-06-17 17:30,Grilled Sandwich,Sandwich,2,190,380
+2026-06-18 07:20,Pancakes,Breakfast,1,165,165
+2026-06-18 08:15,Latte,Coffee,1,180,180
+2026-06-18 09:30,Latte,Coffee,1,175,175
+2026-06-18 10:35,Cappuccino,Coffee,3,165,495
+2026-06-18 16:15,Chocolate Brownie,Dessert,1,140,140
+2026-06-18 18:00,Margherita Pizza,Pizza,1,430,430
+2026-06-18 18:35,Chocolate Brownie,Dessert,2,135,270
+2026-06-18 18:45,Cappuccino,Coffee,2,175,350
+2026-06-18 19:00,Chocolate Brownie,Dessert,1,140,140
+2026-06-18 19:15,Margherita Pizza,Pizza,2,420,840
+2026-06-18 19:45,Margherita Pizza,Pizza,3,435,1305
+2026-06-18 19:55,Cheesecake,Dessert,2,210,420
+2026-06-18 20:40,Grilled Sandwich,Sandwich,2,195,390
+2026-06-19 07:05,Latte,Coffee,3,180,540
+2026-06-19 10:20,Pancakes,Breakfast,2,170,340
+2026-06-19 10:50,Cappuccino,Coffee,2,170,340
+2026-06-19 12:10,Grilled Sandwich,Sandwich,1,185,185
+2026-06-19 16:55,Classic Burger,Burger,2,260,520
+2026-06-19 18:35,Cold Coffee,Coffee,2,195,390
+2026-06-19 18:45,Fresh Juice,Beverage,3,150,450
+2026-06-19 19:35,Cheesecake,Dessert,2,205,410
+2026-06-19 19:55,Margherita Pizza,Pizza,2,430,860
+2026-06-20 12:25,Alfredo Pasta,Pasta,1,355,355
+2026-06-20 13:05,Fresh Juice,Beverage,3,150,450
+2026-06-20 13:25,Fresh Juice,Beverage,2,150,300
+2026-06-20 15:10,Margherita Pizza,Pizza,2,425,850
+2026-06-20 15:15,Cappuccino,Coffee,3,170,510
+2026-06-20 16:00,Alfredo Pasta,Pasta,2,330,660
+2026-06-20 16:05,Grilled Sandwich,Sandwich,1,185,185
+2026-06-20 16:10,Fresh Juice,Beverage,1,150,150
+2026-06-20 18:00,Cheesecake,Dessert,1,205,205
+2026-06-20 18:25,Fresh Juice,Beverage,1,150,150
+2026-06-20 19:40,Alfredo Pasta,Pasta,2,330,660
+2026-06-20 19:55,Cheesecake,Dessert,2,210,420
+2026-06-20 20:55,Cheesecake,Dessert,1,220,220
+2026-06-20 21:35,Chocolate Brownie,Dessert,1,135,135
+2026-06-21 07:55,Cappuccino,Coffee,2,165,330
+2026-06-21 09:25,Cappuccino,Coffee,1,170,170
+2026-06-21 09:25,Fresh Juice,Beverage,1,150,150
+2026-06-21 12:30,Alfredo Pasta,Pasta,2,330,660
+2026-06-21 14:35,Margherita Pizza,Pizza,1,405,405
+2026-06-21 14:40,Latte,Coffee,2,175,350
+2026-06-21 16:35,Classic Burger,Burger,1,270,270
+2026-06-21 17:25,Cappuccino,Coffee,1,165,165
+2026-06-21 18:10,Cheesecake,Dessert,2,210,420
+2026-06-21 19:20,Classic Burger,Burger,1,280,280
+2026-06-21 21:10,Chocolate Brownie,Dessert,2,140,280
+2026-06-21 21:40,Pepperoni Pizza,Pizza,2,520,1040
+2026-06-22 11:10,Grilled Sandwich,Sandwich,2,195,390
+2026-06-22 12:15,Cold Coffee,Coffee,3,185,555
+2026-06-22 16:05,Cappuccino,Coffee,2,170,340
+2026-06-22 17:25,Cold Coffee,Coffee,2,195,390
+2026-06-22 17:25,Chocolate Brownie,Dessert,2,140,280
+2026-06-22 18:45,Grilled Sandwich,Sandwich,2,190,380
+2026-06-22 19:20,Cappuccino,Coffee,1,175,175
+2026-06-22 19:50,Cappuccino,Coffee,2,165,330
+2026-06-22 19:50,Grilled Sandwich,Sandwich,2,185,370
+2026-06-22 20:00,Cheesecake,Dessert,1,210,210
+2026-06-23 12:00,Classic Burger,Burger,2,275,550
+2026-06-23 12:40,Margherita Pizza,Pizza,1,435,435
+2026-06-23 13:30,Margherita Pizza,Pizza,1,410,410
+2026-06-23 13:45,Pepperoni Pizza,Pizza,3,535,1605
+2026-06-23 15:05,Grilled Sandwich,Sandwich,2,185,370
+2026-06-23 16:50,Cappuccino,Coffee,1,170,170
+2026-06-23 18:40,Cheesecake,Dessert,2,210,420
+2026-06-23 19:00,Pepperoni Pizza,Pizza,1,510,510
+2026-06-23 19:30,Margherita Pizza,Pizza,1,410,410
+2026-06-23 20:55,Alfredo Pasta,Pasta,1,340,340
+2026-06-23 21:35,Cheesecake,Dessert,1,215,215
+2026-06-24 09:10,Pancakes,Breakfast,1,170,170
+2026-06-24 09:15,Latte,Coffee,2,175,350
+2026-06-24 13:20,Classic Burger,Burger,2,275,550
+2026-06-24 15:05,Cappuccino,Coffee,2,165,330
+2026-06-24 15:45,Fresh Juice,Beverage,3,145,435
+2026-06-24 16:15,Classic Burger,Burger,2,265,530
+2026-06-24 17:30,Alfredo Pasta,Pasta,2,345,690
+2026-06-24 17:50,Latte,Coffee,3,175,525
+2026-06-24 18:05,Classic Burger,Burger,1,270,270
+2026-06-24 18:50,Veggie Burger,Burger,2,230,460
+2026-06-24 18:55,Cheesecake,Dessert,2,220,440
+2026-06-24 19:10,Margherita Pizza,Pizza,3,420,1260
+2026-06-24 19:20,Cold Coffee,Coffee,3,190,570
+2026-06-24 19:30,Espresso,Coffee,1,135,135
+2026-06-24 20:05,Alfredo Pasta,Pasta,1,340,340
+2026-06-25 08:10,Cappuccino,Coffee,3,165,495
+2026-06-25 09:50,Latte,Coffee,2,185,370
+2026-06-25 10:50,Fresh Juice,Beverage,2,150,300
+2026-06-25 11:15,Fresh Juice,Beverage,1,145,145
+2026-06-25 15:20,Grilled Sandwich,Sandwich,2,185,370
+2026-06-25 16:25,Cappuccino,Coffee,2,165,330
+2026-06-25 16:25,Chocolate Brownie,Dessert,2,140,280
+2026-06-25 16:40,Margherita Pizza,Pizza,2,425,850
+2026-06-25 16:50,Cold Coffee,Coffee,3,190,570
+2026-06-25 18:45,Fresh Juice,Beverage,1,155,155
+2026-06-25 20:45,Alfredo Pasta,Pasta,1,340,340
+2026-06-26 13:00,Espresso,Coffee,2,135,270
+2026-06-26 13:00,Cold Coffee,Coffee,1,185,185
+2026-06-26 13:40,Alfredo Pasta,Pasta,1,340,340
+2026-06-26 17:40,Espresso,Coffee,2,145,290
+2026-06-26 17:40,Pepperoni Pizza,Pizza,2,525,1050
+2026-06-26 17:45,Cold Coffee,Coffee,3,185,555
+2026-06-26 19:05,Cheesecake,Dessert,1,210,210
+2026-06-26 19:05,Fresh Juice,Beverage,3,150,450
+2026-06-26 19:50,Chocolate Brownie,Dessert,1,140,140
+2026-06-27 07:50,Pancakes,Breakfast,1,175,175
+2026-06-27 11:05,Cold Coffee,Coffee,2,185,370
+2026-06-27 15:20,Cold Coffee,Coffee,1,190,190
+2026-06-27 16:00,Classic Burger,Burger,1,280,280
+2026-06-27 16:20,Cold Coffee,Coffee,1,185,185
+2026-06-27 17:10,Alfredo Pasta,Pasta,1,335,335
+2026-06-27 17:15,Pepperoni Pizza,Pizza,1,510,510
+2026-06-27 18:15,Cheesecake,Dessert,2,205,410
+2026-06-28 08:50,Espresso,Coffee,2,145,290
+2026-06-28 13:20,Cappuccino,Coffee,2,170,340
+2026-06-28 14:00,Alfredo Pasta,Pasta,2,350,700
+2026-06-28 14:30,Grilled Sandwich,Sandwich,2,190,380
+2026-06-28 16:40,Chocolate Brownie,Dessert,2,135,270
+2026-06-28 17:50,Classic Burger,Burger,2,280,560
+2026-06-28 19:10,Cappuccino,Coffee,3,170,510
+2026-06-29 07:30,Pancakes,Breakfast,1,170,170
+2026-06-29 08:55,Latte,Coffee,2,185,370
+2026-06-29 10:05,Pancakes,Breakfast,1,175,175
+2026-06-29 10:35,Latte,Coffee,2,175,350
+2026-06-29 15:00,Espresso,Coffee,2,140,280
+2026-06-29 15:00,Cold Coffee,Coffee,3,190,570
+2026-06-29 16:30,Margherita Pizza,Pizza,2,430,860
+2026-06-29 16:45,Latte,Coffee,1,180,180
+2026-06-29 18:25,Alfredo Pasta,Pasta,2,335,670
+2026-06-30 07:35,Espresso,Coffee,1,135,135
+2026-06-30 08:55,Pancakes,Breakfast,2,170,340
+2026-06-30 09:20,Cappuccino,Coffee,1,165,165
+2026-06-30 12:15,Espresso,Coffee,1,140,140
+2026-06-30 12:50,Fresh Juice,Beverage,3,150,450
+2026-06-30 14:20,Veggie Burger,Burger,2,250,500
+2026-06-30 17:05,Cheesecake,Dessert,1,205,205
+2026-06-30 18:20,Latte,Coffee,2,185,370
+2026-06-30 18:50,Fresh Juice,Beverage,2,150,300
+2026-06-30 19:20,Cappuccino,Coffee,1,165,165
+2026-06-30 20:25,Cold Coffee,Coffee,3,195,585
+2026-06-30 21:45,Margherita Pizza,Pizza,3,405,1215
+2026-06-30 21:50,Pepperoni Pizza,Pizza,2,515,1030
