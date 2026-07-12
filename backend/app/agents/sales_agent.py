@@ -1,3 +1,5 @@
+import json
+
 from app.core.logging import logger
 from app.graph.state import BusinessState
 from app.services.llm import LLMService
@@ -14,10 +16,16 @@ def sales_agent(state: BusinessState) -> BusinessState:
 
     sales = load_sales()
 
+    sales_json = json.dumps(
+        sales,
+        indent=2,
+        ensure_ascii=False,
+    )
+
     prompt = load_prompt(
         "sales_agent.j2",
         business_name=state["business_name"],
-        sales=sales,
+        sales=sales_json,
     )
 
     llm = LLMService()
