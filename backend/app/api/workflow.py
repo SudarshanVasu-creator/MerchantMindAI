@@ -12,7 +12,7 @@ def test_workflow():
 
     result = graph.invoke(
         {
-            "business_name": "Demo Bakery",
+            "business_name": "Sunrise Café",
             "reviews": [],
             "sales": [],
             "inventory": [],

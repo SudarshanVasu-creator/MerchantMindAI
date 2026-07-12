@@ -1,5 +1,6 @@
 from langgraph.graph import END, START, StateGraph
 
+from app.agents.sales_agent import sales_agent
 from app.graph.nodes import chief_business_officer
 from app.graph.state import BusinessState
 from app.agents.review_agent import review_agent
@@ -19,6 +20,11 @@ def build_graph():
         review_agent,
     )
 
+    workflow.add_node(
+        "sales_agent",
+        sales_agent,
+    )
+
     workflow.add_edge(
         START,
         "chief_business_officer",
@@ -30,8 +36,13 @@ def build_graph():
     )
 
     workflow.add_edge(
-       "review_agent",
-       END,
+        "review_agent",
+        "sales_agent",
+    )
+
+    workflow.add_edge(
+        "sales_agent",
+        END,
     )
 
     return workflow.compile()
