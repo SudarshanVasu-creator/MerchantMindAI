@@ -5,6 +5,9 @@ from app.graph.state import BusinessState
 from app.agents.review_agent import review_agent
 from app.agents.sales_agent import sales_agent
 from app.agents.inventory_agent import inventory_agent
+from app.agents.marketing_agent import marketing_agent
+from app.agents.strategy_agent import strategy_agent
+from app.agents.executive_report_agent import executive_report_agent
 
 
 def build_graph():
@@ -31,6 +34,21 @@ def build_graph():
         inventory_agent,
     )
 
+    workflow.add_node(
+        "marketing_agent",
+        marketing_agent,
+    )
+
+    workflow.add_node(
+        "strategy_agent",
+        strategy_agent,
+    )
+
+    workflow.add_node(
+        "executive_report_agent",
+        executive_report_agent,
+    )
+
     workflow.add_edge(
         START,
         "chief_business_officer",
@@ -53,6 +71,21 @@ def build_graph():
     
     workflow.add_edge(
         "inventory_agent",
+        "marketing_agent",
+    )
+
+    workflow.add_edge(
+        "marketing_agent",
+        "strategy_agent",
+    )
+
+    workflow.add_edge(
+        "strategy_agent",
+        "executive_report_agent",
+    )
+
+    workflow.add_edge(
+        "executive_report_agent",
         END,
     )
 

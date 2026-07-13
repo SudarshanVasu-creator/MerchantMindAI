@@ -2,6 +2,7 @@ import json
 from urllib import response
 
 from google import genai
+from google.genai.errors import ServerError
 
 from app.config import settings
 from app.core.logging import logger
@@ -26,14 +27,19 @@ class LLMService:
 
         logger.info("Sending request to LLM...")
 
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-        )
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt,
+            )
+            logger.info("LLM response received.")
+            return response.text
+        except ServerError as e:
+            logger.error("Gemini is temporarily unavailable: %s", e)
+            raise Exception(
+                "Gemini is temporarily overloaded. Please try again in a minute."
+            )
 
-        logger.info("LLM response received.")
-
-        return response.text
     
     def invoke_json(self, prompt: str) -> dict:
         """
