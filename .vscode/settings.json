@@ -1,3 +1,5 @@
 {
-  "python.defaultInterpreterPath": "C:/Users/svasu/miniconda3/envs/merchantmind/python.exe"
+  "python.defaultInterpreterPath": "C:/Users/svasu/miniconda3/envs/merchantmind/python.exe",
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda"
 }

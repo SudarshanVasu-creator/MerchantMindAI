@@ -47,6 +47,8 @@ Target businesses include:
 - ✅ Google Gemini Integration
 - ✅ Customer Review Analysis Agent
 - ✅ Structured AI Business Insights
+- ✅ Sales Analysis Agent
+- ✅ Inventory Analysis Agent
 - ✅ Modular Agent Architecture
 - ✅ Jinja2 Prompt Templates
 - ✅ Centralized LLM Service
@@ -54,16 +56,44 @@ Target businesses include:
 
 ---
 
-# 🤖 Planned AI Agents
+# 🔄 Current Workflow
+The multi-agent pipeline currently runs as:
 
+Chief Business Officer
+        ↓
+    Review Agent
+        ↓
+    Sales Agent
+        ↓
+   Inventory Agent
+        ↓
+       END
+
+**Official Demo Business:**
+- Sunrise Café
+
+**Demo Datasets:**
+- reviews.json
+- sales.csv (300 rows)
+- inventory.csv (80 items)
+
+--- 
+
+# 🤖 AI Agents
+
+✅ Completed
 - Customer Review Agent
-- Sales Analytics Agent
-- Inventory Agent
+- Sales Analysis Agent
+- Inventory Analysis Agent
+
+🚧 In Progress
 - Marketing Agent
+- Business Strategy Agent
+- Executive Report Agent
+
+📝 Planned
 - Competitor Intelligence Agent
 - Finance Agent
-- Business Strategy Agent
-
 ---
 
 # 🏗️ Tech Stack
@@ -74,7 +104,9 @@ Target businesses include:
 - FastAPI
 - LangGraph
 - Google Gemini API
+- google-genai SDK
 - Jinja2
+- python-dotenv
 
 ## Database (Planned)
 
@@ -89,6 +121,10 @@ Target businesses include:
 
 - Docker
 - GitHub Actions
+
+## Others (Planned)
+- Authentication
+- Multi-business Support
 
 ---
 
@@ -119,13 +155,12 @@ MerchantMindAI/
 
 # 🎯 Current Status
 
-MerchantMind AI currently supports AI-powered customer review analysis using Google Gemini.
+MerchantMind AI currently supports AI-powered analysis of customer reviews, sales, and inventory through a coordinated multi-agent workflow, demonstrated on the Sunrise Café dataset.
 
 Upcoming milestones include:
 
-- Sales Analytics Agent
-- Inventory Agent
 - Marketing Agent
+- Business Strategy Agent
 - Executive Business Report
 - Business Performance Dashboard
 
@@ -137,7 +172,7 @@ Upcoming milestones include:
 
 Current Version:
 
-**v0.2.0-alpha**
+**v0.3.0-alpha.1**
 
 ---
 
