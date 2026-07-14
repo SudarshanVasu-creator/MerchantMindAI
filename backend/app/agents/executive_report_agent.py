@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 
 from app.core.logging import logger
 from app.graph.state import BusinessState
@@ -12,6 +13,8 @@ def executive_report_agent(state: BusinessState) -> BusinessState:
     """
 
     logger.info("Executive Report Agent started.")
+
+    generated_date = datetime.now().strftime("%B %d, %Y")
 
     review_analysis = json.dumps(
         state["review_analysis"],
@@ -43,6 +46,24 @@ def executive_report_agent(state: BusinessState) -> BusinessState:
         ensure_ascii=False,
     )
 
+    review_metrics = json.dumps(
+        state["review_metrics"],
+        indent=2,
+        ensure_ascii=False,
+    )
+
+    sales_metrics = json.dumps(
+        state["sales_metrics"],
+        indent=2,
+        ensure_ascii=False,
+    )
+
+    inventory_metrics = json.dumps(
+        state["inventory_metrics"],
+        indent=2,
+        ensure_ascii=False,
+    )
+
     prompt = load_prompt(
         "executive_report_agent.j2",
         business_name=state["business_name"],
@@ -51,7 +72,11 @@ def executive_report_agent(state: BusinessState) -> BusinessState:
         inventory_analysis=inventory_analysis,
         marketing_plan=marketing_plan,
         strategy=strategy,
-    )
+        generated_date=generated_date,
+        review_metrics=review_metrics,
+        sales_metrics=sales_metrics,
+        inventory_metrics=inventory_metrics,
+    )    
 
     llm = LLMService()
 
@@ -60,5 +85,6 @@ def executive_report_agent(state: BusinessState) -> BusinessState:
     state["executive_report"] = report
 
     logger.info("Executive Report Agent finished.")
+    logger.info("Executive Report State Keys: %s", list(state.keys()))
 
     return state

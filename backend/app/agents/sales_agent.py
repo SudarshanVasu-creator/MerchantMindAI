@@ -3,6 +3,7 @@ import json
 from app.core.logging import logger
 from app.graph.state import BusinessState
 from app.services.llm import LLMService
+from app.services.metrics import calculate_sales_metrics
 from app.tools.prompt_loader import load_prompt
 from app.tools.sales_loader import load_sales
 
@@ -15,6 +16,8 @@ def sales_agent(state: BusinessState) -> BusinessState:
     logger.info("Sales Agent started.")
 
     sales = load_sales()
+
+    metrics = calculate_sales_metrics(sales)
 
     sales_json = json.dumps(
         sales,
@@ -33,6 +36,7 @@ def sales_agent(state: BusinessState) -> BusinessState:
     analysis = llm.invoke_json(prompt)
 
     state["sales"] = sales
+    state["sales_metrics"] = metrics
     state["sales_analysis"] = analysis
 
     logger.info("Sales Agent finished.")

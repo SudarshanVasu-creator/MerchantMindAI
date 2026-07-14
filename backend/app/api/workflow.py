@@ -13,14 +13,27 @@ def test_workflow():
     result = graph.invoke(
         {
             "business_name": "Sunrise Café",
+
+            # Raw Data
             "reviews": [],
             "sales": [],
             "inventory": [],
+
+            # Deterministic Metrics
+            "review_metrics": {},
+            "sales_metrics": {},
+            "inventory_metrics": {},
+
+            # AI Analysis
             "review_analysis": {},
             "sales_analysis": {},
             "inventory_analysis": {},
+
+            # Strategic Outputs
             "marketing_plan": {},
             "strategy": {},
+
+            # Final Report
             "executive_report": "",
         }
     )

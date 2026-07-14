@@ -3,6 +3,7 @@ import json
 from app.core.logging import logger
 from app.graph.state import BusinessState
 from app.services.llm import LLMService
+from app.services.metrics import calculate_inventory_metrics
 from app.tools.prompt_loader import load_prompt
 from app.tools.inventory_loader import load_inventory
 
@@ -15,6 +16,7 @@ def inventory_agent(state: BusinessState) -> BusinessState:
     logger.info("Inventory Agent started.")
 
     inventory = load_inventory()
+    metrics = calculate_inventory_metrics(inventory)
 
     inventory_json = json.dumps(
         inventory,
@@ -32,6 +34,7 @@ def inventory_agent(state: BusinessState) -> BusinessState:
     analysis = llm.invoke_json(prompt)
 
     state["inventory"] = inventory
+    state["inventory_metrics"] = metrics
     state["inventory_analysis"] = analysis
 
     logger.info("Inventory Agent finished.")
