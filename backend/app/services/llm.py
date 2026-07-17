@@ -1,58 +1,112 @@
 import json
-from urllib import response
 
-from google import genai
-from google.genai.errors import ServerError
-
-from app.config import settings
+from app.core.exceptions import (
+    ProviderAuthenticationError,
+    ProviderBadRequestError,
+    ProviderQuotaExceededError,
+    ProviderUnavailableError,
+)
 from app.core.logging import logger
+from app.services.providers.gemini_provider import GeminiProvider
+from app.services.providers.groq_provider import GroqProvider
 
 
 class LLMService:
     """
-    Handles all communication with the LLM provider.
+    Handles communication with available LLM providers.
+    Automatically falls back if the primary provider fails.
     """
 
-    def __init__(self) -> None:
-        self.client = genai.Client(
-            api_key=settings.GEMINI_API_KEY,
-        )
+    def __init__(self):
 
-        self.model = settings.DEFAULT_MODEL
+        self.providers = [
+            GeminiProvider(),
+            GroqProvider(),
+        ]
 
     def invoke(self, prompt: str) -> str:
         """
-        Send a prompt to the configured LLM and return its response.
+        Send a prompt to the first available provider.
         """
 
-        logger.info("Sending request to LLM...")
+        last_exception = None
 
-        try:
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=prompt,
-            )
-            logger.info("LLM response received.")
-            return response.text
-        except ServerError as e:
-            logger.error("Gemini is temporarily unavailable: %s", e)
-            raise Exception(
-                "Gemini is temporarily overloaded. Please try again in a minute."
-            )
+        for provider in self.providers:
 
-    
+            provider_name = provider.__class__.__name__
+
+            try:
+
+                logger.info(
+                    "Trying provider: %s",
+                    provider_name,
+                )
+
+                response = provider.invoke(prompt)
+
+                logger.info(
+                    "Provider succeeded: %s",
+                    provider_name,
+                )
+
+                return response
+
+            except (
+                ProviderQuotaExceededError,
+                ProviderUnavailableError,
+            ) as e:
+
+                logger.warning(
+                    "Provider %s unavailable: %s",
+                    provider_name,
+                    e,
+                )
+
+                last_exception = e
+
+                continue
+
+            except (
+                ProviderAuthenticationError,
+                ProviderBadRequestError,
+            ) as e:
+
+                logger.warning(
+                    "Provider %s failed: %s",
+                    provider_name,
+                    e,
+                )
+
+                last_exception = e
+
+                continue
+
+        if last_exception:
+            raise last_exception
+
+        raise RuntimeError("No LLM providers are configured.")
+
     def invoke_json(self, prompt: str) -> dict:
         """
-        Send a prompt to the LLM and return parsed JSON.
+        Send a prompt and parse JSON.
         """
 
         response = self.invoke(prompt)
 
-        # Remove Markdown code fences if present
-        response = response.replace("```json", "").replace("```", "").strip()
+        response = (
+            response
+            .replace("```json", "")
+            .replace("```", "")
+            .strip()
+        )
 
         try:
             return json.loads(response)
+
         except json.JSONDecodeError:
-            logger.exception("Failed to parse JSON returned by Gemini.")
+
+            logger.exception(
+                "Failed to parse JSON returned by provider."
+            )
+
             raise

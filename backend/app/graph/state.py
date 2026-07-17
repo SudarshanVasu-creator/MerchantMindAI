@@ -17,6 +17,11 @@ class BusinessState(TypedDict):
     sales: JSONList
     inventory: JSONList
 
+    # Deterministic metrics
+    review_intelligence: JSONDict
+    sales_metrics: JSONDict
+    inventory_metrics: JSONDict
+
     # Agent outputs
     review_analysis: JSONDict
     sales_analysis: JSONDict
