@@ -46,8 +46,8 @@ def executive_report_agent(state: BusinessState) -> BusinessState:
         ensure_ascii=False,
     )
 
-    review_metrics = json.dumps(
-        state["review_metrics"],
+    review_intelligence = json.dumps(
+        state["review_intelligence"],
         indent=2,
         ensure_ascii=False,
     )
@@ -73,7 +73,7 @@ def executive_report_agent(state: BusinessState) -> BusinessState:
         marketing_plan=marketing_plan,
         strategy=strategy,
         generated_date=generated_date,
-        review_metrics=review_metrics,
+        review_intelligence=review_intelligence,
         sales_metrics=sales_metrics,
         inventory_metrics=inventory_metrics,
     )    

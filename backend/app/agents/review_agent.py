@@ -1,10 +1,9 @@
 from app.core.logging import logger
 from app.graph.state import BusinessState
 from app.services.llm import LLMService
+from app.services.metrics import build_review_intelligence
 from app.tools.prompt_loader import load_prompt
 from app.tools.review_loader import load_reviews
-from app.services.metrics import calculate_review_metrics
-
 
 
 def review_agent(state: BusinessState) -> BusinessState:
@@ -16,21 +15,21 @@ def review_agent(state: BusinessState) -> BusinessState:
 
     reviews = load_reviews()
 
-    metrics = calculate_review_metrics(reviews)
-    
+    intelligence = build_review_intelligence(reviews)
+
     prompt = load_prompt(
         "review_agent.j2",
         business_name=state["business_name"],
-        reviews=reviews,
+        review_intelligence=intelligence,
     )
 
     llm = LLMService()
 
     analysis = llm.invoke_json(prompt)
-    
-    state["reviews"] = reviews
-    state["review_metrics"] = metrics
+
+    state["review_intelligence"] = intelligence
     state["review_analysis"] = analysis
+    state.pop("reviews", None)
 
     logger.info("Prompt rendered successfully.")
     logger.info("Review Agent finished.")

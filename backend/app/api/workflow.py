@@ -20,7 +20,7 @@ def test_workflow():
             "inventory": [],
 
             # Deterministic Metrics
-            "review_metrics": {},
+            "review_intelligence": {},
             "sales_metrics": {},
             "inventory_metrics": {},
 
