@@ -51,8 +51,6 @@ MerchantMind AI aligns with the selected United Nations Sustainable Development 
 
 ---
 
-# 🏛️ Architecture
-
 ## 🏛️ Architecture
 
 ```mermaid
