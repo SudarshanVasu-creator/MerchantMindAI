@@ -88,8 +88,11 @@ frontend/dist/
 *.bak
 *.swp
 
+# ==========================
 # Development Documents
+# ==========================
 development/
+CHANGELOG.md
 
 # ==========================
 # Python Cache
