@@ -87,3 +87,47 @@ frontend/dist/
 
 # Development Documents
 development/
+
+# ==========================
+# Python Cache
+# ==========================
+*.pyc
+*.pyo
+*.pyd
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Python Type Checkers
+# ==========================
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ==========================
+# Python Packaging
+# ==========================
+.eggs/
+*.egg
+
+# ==========================
+# Node Package Managers
+# ==========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Vite
+# ==========================
+vite.svg
+
+# ==========================
+# OS
+# ==========================
+Desktop.ini
