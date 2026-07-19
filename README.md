@@ -9,7 +9,6 @@
 ![Vite](https://img.shields.io/badge/Vite-Build-646CFF)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38BDF8)
 ![Status](https://img.shields.io/badge/Status-MVP-success)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 > An AI-powered Business Manager that combines deterministic business intelligence, multi-agent reasoning, and workflow automation to help small businesses make smarter operational decisions.
 
