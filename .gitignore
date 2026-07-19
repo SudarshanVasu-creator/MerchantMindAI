@@ -92,7 +92,7 @@ frontend/dist/
 # Development Documents
 # ==========================
 development/
-CHANGELOG.md
+CHANGELOG.md/
 
 # ==========================
 # Python Cache
